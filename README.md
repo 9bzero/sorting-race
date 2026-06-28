@@ -1,10 +1,10 @@
-# Sorting Race
+# sorting-race
 
-Watch **6 sorting algorithms** compete side-by-side in real time — see which finishes first.
+Six sorting algorithms racing each other on the same array. It is one thing to know merge sort is O(n log n) and bubble sort is O(n²). It is another to watch bubble sort still grinding away while merge sort finished 3 seconds ago.
 
 ## Algorithms
 
-| Algorithm | Avg Complexity | Stable |
+| Algorithm | Avg case | Stable |
 |---|---|---|
 | Bubble Sort | O(n²) | Yes |
 | Selection Sort | O(n²) | No |
@@ -13,27 +13,19 @@ Watch **6 sorting algorithms** compete side-by-side in real time — see which f
 | Quick Sort | O(n log n) | No |
 | Heap Sort | O(n log n) | No |
 
+All six algorithms run on the same shuffled array simultaneously. Animation speed and array size are adjustable.
+
 ## Features
 
-- Live bar chart animation for each algorithm
-- Adjustable array size and speed
-- Color-coded comparisons and swaps
-- Real-time step and comparison counters
-- Winner highlight when race ends
+- Live bar chart for each algorithm
+- Color-coded: comparisons are blue, active swaps are red, sorted is green
+- Adjustable speed (1x – 20x)
+- Array size: 10 – 200 elements
+- Shows comparison and swap counts in real time
 
-## Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
-
-## Run locally
+## Run
 
 ```bash
 npm install
 npm run dev
 ```
-
----
-
-Made by [9bzero](https://github.com/9bzero)
